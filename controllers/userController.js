@@ -85,6 +85,5 @@ export const getUsers = async (req, res) => {
       if (connection) {
         connection.close();
       }
- 
-
-
+}
+};
